@@ -28,6 +28,7 @@ class APIPress {
 	 */
 	function filterJsonQueryVars($vars) {
 		$vars[] = 'meta_key';
+		$vars[] = 'meta_value';
 		return $vars;
 	}
 
